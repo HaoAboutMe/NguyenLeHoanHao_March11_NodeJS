@@ -10,10 +10,10 @@ let roleSchema = mongoose.Schema(
       type: String,
       default: "",
     },
-    isDeleted:{
-        type:Boolean,
-        default:false
-    }
+    isDeleted: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,
